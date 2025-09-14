@@ -48,7 +48,7 @@ function checkAnswer(idx){
     h4.innerHTML=`Game over! Your score is<b> ${level}</b><br> Press any key to Restart`;
     document.querySelector('body').style.backgroundColor="red";
     setTimeout(function(){
-          document.querySelector('body').style.backgroundColor="rgb(158, 75, 236)";
+          document.querySelector('body').style.backgroundColor="purple";
     },150);
     reset();
   }
@@ -81,5 +81,6 @@ function checkAnswer(idx){
   level=0;
 
  }
+
 
 
