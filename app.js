@@ -61,7 +61,6 @@ function checkAnswer(idx){
    let randmColor=color[randmInd];
    let randBtn=document.querySelector(`.${randmColor}`);
    gameSeq.push(randmColor); 
-   console.log(gameSeq); 
    gameFlash(randBtn);
  } 
  function btnPress(){
@@ -80,4 +79,5 @@ function checkAnswer(idx){
   gameSeq=[];
   userSeq=[];
   level=0;
+
  }
