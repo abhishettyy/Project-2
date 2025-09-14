@@ -3,6 +3,7 @@
     padding:0;
     font:1rem;
     font-family:  Times, 'Times New Roman', serif;
+   
 }
 #heading{
     text-align: center;
@@ -81,3 +82,4 @@ h4{
 .userflash{
         background-color: green;
     }
+
